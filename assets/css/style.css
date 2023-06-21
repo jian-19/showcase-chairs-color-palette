@@ -71,11 +71,11 @@
 
 .text {
     width: 100%;
-    line-height: 1.4rem;
 }
 
 .price-subtitle {
     display: flex;
+    justify-content: center;
 }
 
 .price {
@@ -208,10 +208,6 @@
     .image-showcase img {
         width: 20rem;
     }
-
-    .text {
-        line-height: 1.2rem;
-    }
 }
 @media screen and (max-width: 420px) {
     .container {
@@ -221,10 +217,6 @@
     .image-showcase {
         display: block;
         padding: 0.5rem;
-    }
-
-    .text {
-        line-height: 1.2rem;
     }
 }
 
@@ -236,10 +228,6 @@
     .image-showcase img{
         display: block;
         width: 15rem;
-    }
-
-    .text {
-        line-height: 1.2rem;
     }
 
     .content-box {
